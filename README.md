@@ -93,7 +93,7 @@ $ git clone https://gitlab.kaust.edu.sa/primalight/deepnano
 
 ### Obtaining the dataset
 
-A large (1.6 GB) dataset for training ALFRED is maintained as a compressed zip file [here](https://drive.google.com/uc?export=download&id=1i4V2YO8q1otAXowoV-r2rxgCK1rPe0Pf)
+A large (1.6 GB) dataset for training ALFRED is maintained as a compressed zip file [here](https://drive.google.com/uc?export=download&id=1nwy3SE8Vstj_AsZ-iMygCsfu4IFi7fAw)
 
 From the terminal, you can download this dataset using the python utility [gdown](https://github.com/wkentaro/gdown)
 
