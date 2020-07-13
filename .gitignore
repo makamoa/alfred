@@ -3,3 +3,4 @@
 models/
 .downloads
 .~*
+__pycache__
