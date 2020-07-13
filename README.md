@@ -121,17 +121,6 @@ $ conda env create -f deepnano.yml
 $ conda activate tensorflow
 ```
 
-The code assumes that paths to the project and data folders exist in the system's
-environmental variables. To set up these variables execute the following commands
-
-```bash
-$ export DATADIR="path-to/data/"
-$ export PROJECT="path-to/project/"
-```
-
-The lines above can be added to your .bashrc file or equivalent so they are maintained
-between system reboots.
-
 
 
 ## Usage
