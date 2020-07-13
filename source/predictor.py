@@ -83,12 +83,12 @@ class NNSimulator():
             for i,(pred,true) in enumerate(zip(self.pred_,self.y_)):
                 batch_size = len(pred)
                 #mse over i output channel
-                mse_oi = np.zeros([batch_size, len(pred)])
-                for j in range(len(y)):
+                mse_oi = np.zeros([batch_size])
+                for j in range(len(y[0])):
                     #mse over i output channel and j sample
-                    mse_oi[i,j] = mse(self.y_[j], self.pred_[j])
+                    mse_oi[j] = mse(self.y_[i][j], self.pred_[i][j])
                 mse_.append(mse_oi)
-            self.mse_ = np.squeeze(np.array(mse_))
+            self.mse_ = np.array(mse_)
         return self.model.evaluate(X,y)
 
     @show_mulitple_outputs
@@ -97,8 +97,9 @@ class NNSimulator():
         show summary for individual output channel
         :return:
         """
-        print('Average MSE', self.mse_.mean())
-        print('Predictions with MSE lower than a treshhold (>%.3f)' % self.th_, (self.mse_[self.mse_<self.th_]).__len__() / self.mse_.__len__()*100, "%")
+        print(self.mse_.shape)
+        print('Average MSE for channel %d is' % channel, self.mse_[channel].mean())
+        print('Predictions with MSE lower than a treshhold (>%.3f)' % self.th_, (self.mse_[channel][self.mse_[channel]<self.th_]).__len__() / self.mse_[channel].__len__()*100, "%")
         i = np.random.randint(len(self.X_[channel]),size=4)
         mse_ = self.mse_[channel][i]
         pred = self.pred_[channel][i]
