@@ -99,7 +99,7 @@ From the terminal, you can download this dataset using the python utility [gdown
 
 ```bash
 $ pip install gdown
-$ gdown https://drive.google.com/uc?export=download&id=12chjLRBOMoQEf3voPFToDHEOOt1uLkmZ
+$ gdown https://drive.google.com/uc?export=download&id=1nwy3SE8Vstj_AsZ-iMygCsfu4IFi7fAw
 ```
 
 To extract the zip file, the following command may be used
