@@ -5,9 +5,8 @@
 
 ## License
 
-Usage of the provided software implies agreement with the terms of the [license](https://gitlab.kaust.edu.sa/makam0a/deepnano/-/blob/master/LICENSE) document available in this repository.
-Briefly, the use of this software for commertial applications is not permitted and proper credit must be given whenever this 
-software is used to produce results for publications.
+Use of this software implies accepting all the terms of conditions described in [license](https://gitlab.kaust.edu.sa/makam0a/deepnano/-/blob/master/LICENSE) document available in this repository.
+We remind that the use of this software is premitted for non-commercial applications, and proper credit must be given to the authros whenever this software is used.
 
 ## Overall description
 
@@ -19,7 +18,7 @@ currenlty under review but presently available as an [arxiv preprint](https://ar
 
 *Generalized Maxwell projections for multi-mode network Photonics* [Scientific Reports volume 10, Article number: 9038 (2020)](https://doi.org/10.1038/s41598-020-65293-6)
 
-The user is ecouraged to read these publications to familiarize themselves with the underlying theory and logic behind the provided software.
+The users are ecouraged to read both publications and familiarize themselves with the underlying theory and logic behind the  software.
 
 #### Alfred
 ALFRED stands for Autonomous Learning Framework for Rule-based Evolutionary Design, it is an inverse design software platform 
@@ -49,9 +48,7 @@ solution structure.
 
 ## Limitations of the provided software
 
-The version of ALFRED as provided here is fully capable of returning nanostructure geometries for approximating a given 
-input optical response. However, the code in this repository is only intended to provide a demonstration of the platform
-operation to validate the results of its associated academic publication. As this software can be used to produce commertializable
+The version of ALFRED provided here is a base version of a demo specifically designed to run on a desktop. As this software can be used to produce commercial 
 devices, in order to protect the financial interests of the authors the final optimization routine has been removed. Any interested
 parties who which to use this software with full optimizations for commertial applications can contact the authors to work out a licensing agreement.
 
@@ -62,23 +59,22 @@ parties who which to use this software with full optimizations for commertial ap
 
 ### Hardware
 
-The codes provided are optimized for running on an CUDA capable NVIDIA GPU.
-While not strictly requiered, the user is advised that the neural network training
+The codes provided are optimized for running on a CUDA capable NVIDIA GPU.
+While not strictly required, the user is advised that the neural network training
 process can take several hours when running on the GPU and may become prohibitibly
-long if running on a CPU. 
+long if running on a single CPU. 
 
 ### Software
 
 The use of a Linux based operating system is strongly recommended. 
-All codes were tested on a Ubuntu 18.10 system and cross platform compatility 
-is not guaranteed.
+All codes were tested on a Ubuntu 18.10 system.
 
-A working distribution of python 3.8 or higher is requiered to run the provided codes.
+A working distribution of python 3.8 or higher is required.
 The use of the [anaconda python distribution](https://www.anaconda.com/) is recommended
-to ease the installation of the requiered python packages.
+to ease the installation of the required python packages.
 
-The usage examples of this software are provided as Jupyter notebooks and as such 
-requiere the [Jupyter notebook](https://jupyter.org/) package to run. Note this package
+Examples of use of this software are provided as Jupyter notebooks and as such 
+it requires the [Jupyter notebook](https://jupyter.org/) package. Note that this package
 is included by default in the anaconda distribution.
 
 
