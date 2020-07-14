@@ -5,8 +5,12 @@
 
 ## License
 
-Use of this software implies accepting all the terms of conditions described in [license](https://gitlab.kaust.edu.sa/makam0a/deepnano/-/blob/master/LICENSE) document available in this repository.
-We remind that the use of this software is premitted for non-commercial applications, and proper credit must be given to the authros whenever this software is used.
+Use of this software implies accepting all the terms and conditions described in
+the
+[license](https://gitlab.kaust.edu.sa/makam0a/deepnano/-/blob/master/LICENSE)
+document available in this repository.  We remind users that the use of this
+software is permitted for non-commercial applications, and proper credit must be
+given to the authors whenever this software is used.
 
 ## Overall description
 
@@ -14,11 +18,11 @@ This repository contains a demonstration of the flat optics design software ALFR
 
 *Broadband vectorial ultra-flat optics with experimental efficiency up to 99% in the visible via universal approximators*
 
-currenlty under review but presently available as an [arxiv preprint](https://arxiv.org/abs/2005.01954). The code makes use of the theory described in the publication:
+currently under review but presently available as an [arxiv preprint](https://arxiv.org/abs/2005.01954). The code makes use of the theory described in the publication:
 
 *Generalized Maxwell projections for multi-mode network Photonics* [Scientific Reports volume 10, Article number: 9038 (2020)](https://doi.org/10.1038/s41598-020-65293-6)
 
-The users are ecouraged to read both publications and familiarize themselves with the underlying theory and logic behind the  software.
+The users are encouraged to read both publications and familiarize themselves with the underlying theory and logic behind the  software.
 
 #### Alfred
 ALFRED stands for Autonomous Learning Framework for Rule-based Evolutionary Design, it is an inverse design software platform 
@@ -30,10 +34,10 @@ The program is composed of two parts: A particle swarm optimizer and a neural ne
 ![Alfred_image](https://gitlab.kaust.edu.sa/makam0a/deepnano/-/raw/assets/alfred_overview.png)
 
 Alfred works by launching the particles into a multidimensional search space containing a very large number of possible
-nanostructure geometries. Each particle evaluates the peformance of a candidate geometry and explores the search space
-according to the the values assigned to its inertia, social and memory paremeters. The behaviour of the particles is
+nanostructure geometries. Each particle evaluates the performance of a candidate geometry and explores the search space
+according to the values assigned to its inertia, social and memory parameters. The behaviour of the particles is
 intended to resemble the behaviour of social insects, such as ants or bees, in the sense that the exploration of the 
-environment is carried out by indidivuals that share information with each other. For fast evaluation of the performance
+environment is carried out by individuals that share information with each other. For fast evaluation of the performance
 of a possible candidate geometry each particle is equipped with a neural network prediction unit. The unit has been trained
 on a set of FDTD simulations to be able to quickly and accurately predict the optical response of candidate geometries.  
 Structurally, the predictor consists of the combination of a convolutional neural netork (CNN) based on the ResNet18 architecture 
@@ -50,7 +54,7 @@ solution structure.
 
 The version of ALFRED provided here is a base version of a demo specifically designed to run on a desktop. As this software can be used to produce commercial 
 devices, in order to protect the financial interests of the authors the final optimization routine has been removed. Any interested
-parties who which to use this software with full optimizations for commertial applications can contact the authors to work out a licensing agreement.
+parties who which to use this software with full optimizations for commercial applications can contact the authors to work out a licensing agreement.
 
 
 # Getting started
@@ -61,7 +65,7 @@ parties who which to use this software with full optimizations for commertial ap
 
 The codes provided are optimized for running on a CUDA capable NVIDIA GPU.
 While not strictly required, the user is advised that the neural network training
-process can take several hours when running on the GPU and may become prohibitibly
+process can take several hours when running on the GPU and may become prohibitively
 long if running on a single CPU. 
 
 ### Software
@@ -85,7 +89,7 @@ distribution is assumed for the rest of this document.
 
 ### Obtaining the code
 
-Begin by cloning this project along with the auxillary nanocpp-extras package to your local workstation.
+Begin by cloning this project. In a terminal, type:
 
 ```sh
 $ git clone https://gitlab.kaust.edu.sa/primalight/deepnano
@@ -112,7 +116,7 @@ $ python -c "from zipfile import PyZipFile; PyZipFile( '''alfred_data.zip''' ).e
 ### System setup
 
 The use of a separate python virtual environment is recommended for running the provided
-programs. The file "deepnano.yml" is provided to quickly setup this environment in linux
+programs. The file "deepnano.yml" is provided to quickly setup this environment in Linux
 systems. To create an environment using the provided file and activate it do:
 
 ```bash
@@ -125,7 +129,7 @@ $ conda activate deepnano
 
 ## Usage
 
-Usage instructions are provided in the jupyter notebook files of the repository. The user is adviced to first go through the 
+Usage instructions are provided in the jupyter notebook files of the repository. The user is advised to first go through the 
 file 'Demo.ipynb' as it explains how ALFRED handles data, the training process of the predictor and how to replicate the results
 of the manuscript. The notebook can be viewed by executing the following commands:
 
