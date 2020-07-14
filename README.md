@@ -1,7 +1,5 @@
 # WELCOME TO DEEPNANO DEMO
 
-### Index
-[[_TOC_]]
 
 ## License
 
