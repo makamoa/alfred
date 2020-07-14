@@ -67,7 +67,7 @@ long if running on a single CPU.
 ### Software
 
 The use of a Linux based operating system is strongly recommended. 
-All codes were tested on a Ubuntu 18.10 system.
+All codes were tested on a Ubuntu 18.04 system.
 
 A working distribution of python 3.8 or higher is required.
 The use of the [anaconda python distribution](https://www.anaconda.com/) is recommended
@@ -93,7 +93,7 @@ $ git clone https://gitlab.kaust.edu.sa/primalight/deepnano
 
 ### Obtaining the dataset
 
-A large (1.6 GB) dataset for training ALFRED is maintained as a compressed zip file [here](https://drive.google.com/uc?export=download&id=1nwy3SE8Vstj_AsZ-iMygCsfu4IFi7fAw)
+A large (2 GB) dataset for training ALFRED is maintained as a compressed zip file [here](https://drive.google.com/uc?export=download&id=1nwy3SE8Vstj_AsZ-iMygCsfu4IFi7fAw)
 
 From the terminal, you can download this dataset using the python utility [gdown](https://github.com/wkentaro/gdown)
 
@@ -112,13 +112,13 @@ $ python -c "from zipfile import PyZipFile; PyZipFile( '''alfred_data.zip''' ).e
 ### System setup
 
 The use of a separate python virtual environment is recommended for running the provided
-programs. The file "deepnano.yml" is provided to quickly setup this environment. To create an environment
-using the provided file do
+programs. The file "deepnano.yml" is provided to quickly setup this environment in linux
+systems. To create an environment using the provided file and activate it do:
 
 ```bash
 $ cd deepnano
 $ conda env create -f deepnano.yml
-$ conda activate tensorflow
+$ conda activate deepnano
 ```
 
 
