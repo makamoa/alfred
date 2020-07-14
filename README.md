@@ -29,7 +29,7 @@ nanoscale geometry of the device that best approximates this response.
 
 The program is composed of two parts: A particle swarm optimizer and a neural network prediction unit
 
-![Alfred_image](https://gitlab.kaust.edu.sa/makam0a/deepnano/-/raw/assets/alfred_overview.png)
+![](https://github.com/makamoa/alfred/blob/assets/Alfred_overview.png)
 
 Alfred works by launching the particles into a multidimensional search space containing a very large number of possible
 nanostructure geometries. Each particle evaluates the performance of a candidate geometry and explores the search space
