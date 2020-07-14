@@ -125,8 +125,11 @@ $ conda env create -f deepnano.yml
 $ conda activate deepnano
 ```
 
-
-
+To use a Jupyter notebook inside the created virtual environment, type the following code:
+```
+bash 
+pip install ipykernel ipython kernel install --user --name=deepnano
+```
 ## Usage
 
 Usage instructions are provided in the jupyter notebook files of the repository. The user is advised to first go through the 
@@ -136,6 +139,8 @@ of the manuscript. The notebook can be viewed by executing the following command
 ```bash
 $ jupyter notebook Demo.ipynb
 ```
+Please ensure the kernel is the correct one once the notebook starts running.
+ 
 ## Citing
 
 When making use of the provided codes in this repository for your own work please ensure you reference the [original publication](https://arxiv.org/abs/2005.01954). 
