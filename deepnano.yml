@@ -1,4 +1,4 @@
-name: tensorflow
+name: deepnano
 channels:
   - conda-forge
   - anaconda
@@ -150,5 +150,5 @@ dependencies:
     - pyzmq==19.0.1
     - traitlets==4.3.3
     - wcwidth==0.2.5
-prefix: /home/makam0a/anaconda3/envs/tensorflow
+prefix: /home/makam0a/anaconda3/envs/deepnano
 
