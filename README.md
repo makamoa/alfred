@@ -1,7 +1,5 @@
 # WELCOME TO DEEPNANO DEMO
 
-### Index
-[[_TOC_]]
 
 ## License
 
@@ -31,7 +29,7 @@ nanoscale geometry of the device that best approximates this response.
 
 The program is composed of two parts: A particle swarm optimizer and a neural network prediction unit
 
-![Alfred_image](https://gitlab.kaust.edu.sa/makam0a/deepnano/-/raw/assets/alfred_overview.png)
+![](https://github.com/makamoa/alfred/blob/assets/Alfred_overview.png)
 
 Alfred works by launching the particles into a multidimensional search space containing a very large number of possible
 nanostructure geometries. Each particle evaluates the performance of a candidate geometry and explores the search space
@@ -129,9 +127,15 @@ Should the user experience problems with this file or be using another system
 a full list of requierements for running the code is available in the file
 'requierements.txt' of the repository.
 
+Note 'deepnano.yml' is intended to be used only with Linux systems.
+Should the user experience problems with this file or be using another system, 
+a full list of requierements for running the code is available in the file
+'requierements.txt' of the repository.
+
+
 To use a Jupyter notebook inside the created virtual environment, type the following code:
-```
-bash 
+
+```bash
 pip install ipykernel ipython kernel install --user --name=deepnano
 ```
 ## Usage
