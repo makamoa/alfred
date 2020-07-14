@@ -80,7 +80,7 @@ is included by default in the anaconda distribution.
 
 ## Initial set up
 
-The usage of an Ubuntu 18.10 system with a CUDA capable GPU and the anaconda python
+The usage of an Ubuntu 18.04 system or similar with a CUDA capable GPU and the anaconda python
 distribution is assumed for the rest of this document. 
 
 ### Obtaining the code
