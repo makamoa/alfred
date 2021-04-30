@@ -71,7 +71,7 @@ PyYAML==5.3.1
 pyzmq==19.0.1
 requests @ file:///tmp/build/80754af9/requests_1592841827918/work
 requests-oauthlib==1.3.0
-rsa==4.0
+rsa==4.7
 scikit-image==0.16.2
 scikit-learn @ file:///tmp/build/80754af9/scikit-learn_1592502866053/work
 scipy @ file:///tmp/build/80754af9/scipy_1592930511789/work
