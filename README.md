@@ -14,13 +14,15 @@ given to the authors whenever this software is used.
 
 This repository contains a demonstration of the flat optics design software ALFRED described in detail in the publication: 
 
-*Broadband vectorial ultra-flat optics with experimental efficiency up to 99% in the visible via universal approximators*
+*Broadband vectorial ultrathin optics with experimental efficiency up to 99% in the visible via universal approximators*
 
-currently under review but presently available as an [arxiv preprint](https://arxiv.org/abs/2005.01954). The code makes use of the theory described in the publication:
+available as an open access article at [Light: Science & Applications volume 10, Article number: 47 (2021)](https://www.nature.com/articles/s41377-021-00489-7). 
+
+The code makes use of the theory described in the publication:
 
 *Generalized Maxwell projections for multi-mode network Photonics* [Scientific Reports volume 10, Article number: 9038 (2020)](https://doi.org/10.1038/s41598-020-65293-6)
 
-The users are encouraged to read both publications and familiarize themselves with the underlying theory and logic behind the  software.
+Users are encouraged to read both publications and familiarize themselves with the underlying theory and logic behind the  software.
 
 #### Alfred
 ALFRED stands for Autonomous Learning Framework for Rule-based Evolutionary Design, it is an inverse design software platform 
@@ -151,20 +153,25 @@ Please ensure the kernel is the correct one once the notebook starts running.
  
 ## Citing
 
-When making use of the provided codes in this repository for your own work please ensure you reference the [original publication](https://arxiv.org/abs/2005.01954). 
-The following biblatex entry on the preprint is provided for your convenience while the final article undergoes review.
+When making use of the provided codes in this repository for your own work please ensure you reference the publication 
+[Light: Science & Applications volume 10, Article number: 47 (2021)](https://www.nature.com/articles/s41377-021-00489-7).
+
+The following biblatex entry may be used for this purpose.
 
 ```
-@article{Getman2020,
-  title = {Broadband Vectorial Ultra-Flat Optics with Experimental Efficiency up to 99\% in the Visible via Universal Approximators},
-  author = {Getman, Fedor and Makarenko, Maksim and Burguete-Lopez, Arturo and Fratalocchi, Andrea},
-  date = {2020-05-05},
-  url = {http://arxiv.org/abs/2005.01954},
-  urldate = {2020-05-11},
-  archivePrefix = {arXiv},
-  eprint = {2005.01954},
-  eprinttype = {arxiv},
-  keywords = {Physics - Optics},
-  primaryClass = {physics}
+@article{Getman2021,
+  title = {Broadband Vectorial Ultrathin Optics with Experimental Efficiency up to 99\% in the Visible Region via Universal Approximators},
+  author = {Getman, F. and Makarenko, M. and {Burguete-Lopez}, A. and Fratalocchi, A.},
+  year = {2021},
+  month = mar,
+  volume = {10},
+  pages = {1--14},
+  publisher = {{Nature Publishing Group}},
+  issn = {2047-7538},
+  doi = {10.1038/s41377-021-00489-7},
+  copyright = {2021 The Author(s)},
+  journal = {Light: Science \& Applications},
+  language = {en},
+  number = {1}
 }
 ```
