@@ -88,7 +88,7 @@ toolz==0.10.0
 tornado==6.0.4
 tqdm @ file:///home/conda/feedstock_root/build_artifacts/tqdm_1593390011681/work
 traitlets==4.3.3
-urllib3==1.25.9
+urllib3==1.26.5
 wcwidth==0.2.5
 Werkzeug==1.0.1
 wrapt==1.12.1
