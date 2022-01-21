@@ -28,7 +28,7 @@ idna @ file:///tmp/build/80754af9/idna_1593446292537/work
 image-classifiers @ git+https://github.com/qubvel/classification_models.git@a0f006e05485a34ccf871c421279864b0ccd220b
 imageio==2.8.0
 ipykernel==5.3.1
-ipython==7.16.1
+ipython==7.16.3
 ipython-genutils==0.2.0
 jedi==0.17.1
 joblib==0.15.1
