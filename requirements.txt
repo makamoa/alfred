@@ -80,7 +80,7 @@ sip==4.19.13
 six==1.15.0
 tensorboard==2.2.1
 tensorboard-plugin-wit==1.6.0
-tensorflow==2.2.0
+tensorflow==2.5.3
 tensorflow-estimator==2.2.0
 termcolor==1.1.0
 threadpoolctl @ file:///tmp/tmp9twdgx9k/threadpoolctl-2.1.0-py3-none-any.whl
