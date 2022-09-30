@@ -31,7 +31,7 @@ ipykernel==5.3.1
 ipython==7.16.1
 ipython-genutils==0.2.0
 jedi==0.17.1
-joblib==0.15.1
+joblib==1.2.0
 jupyter-client==6.1.5
 jupyter-core==4.6.3
 Keras @ file:///home/conda/feedstock_root/build_artifacts/keras_1593112171383/work
