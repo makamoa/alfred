@@ -52,7 +52,7 @@ pandas @ file:///tmp/build/80754af9/pandas_1592841659173/work
 parso==0.7.0
 pexpect==4.8.0
 pickleshare==0.7.5
-Pillow==7.1.2
+Pillow==9.3.0
 prompt-toolkit==3.0.5
 protobuf==3.12.3
 ptyprocess==0.6.0
